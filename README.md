@@ -32,7 +32,7 @@ This `README` is for them to look at and help them understand React better. `Axi
 
 ## Promises 
 
-Axios depends on a native ES6 Promise implementation to be supported. If your environment doesn't support ES6 Promises, you can polyfill, and if you can't polyfill you can't use promises. 
+Axios depends on a native ES6 Promise implementation to be supported. If your environment doesn't support ES6 Promises, you can polyfill.
 
 ```javascript
 import axios from 'axios';
