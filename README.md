@@ -1,2 +1,1 @@
-# react-for-friend
-React component I finished for friend 
+# React componenet I finished for a friend 
