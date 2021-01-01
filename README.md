@@ -21,3 +21,20 @@ export default class PersonList extends React.Component {
   }
 }
 ```
+
+## Other ways to invoke Axios
+
+This `README` is for them to look at and help them understand React better. `Axios` is a Promise based HTTP client for the browser and node.js. There's many ways you can invoke Axios, but in this example in React I just showed you one way. You can also invoke Axios using a CDN. Using something like `jsDelivr` and doing:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+```
+
+## Promises 
+
+Axios depends on a native ES6 Promise implementation to be supported. If your environment doesn't support ES6 Promises, you can polyfill, and if you can't polyfill you can't use promises. 
+
+```javascript
+import axios from 'axios';
+axios.get('/user?ID=12345');
+```
